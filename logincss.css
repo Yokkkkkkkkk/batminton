@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+.macbook-pro-14-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 982px;
+  padding: 0 113px;
+  width: 1512px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.image-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px;
+  min-height: 733px;
+  width: 694px;
+}
+
+.image-1 {
+  height: 355px;
+  object-fit: cover;
+  width: 694px;
+}
+
+.image-2 {
+  height: 337px;
+  margin-top: 41px;
+  object-fit: cover;
+  width: 694px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 102px;
+  margin-top: 114px;
+  min-height: 507px;
+  width: 445px;
+}
+
+.login-button {
+  align-items: flex-start;
+  background-color: 
+#04c35c;
+  border-radius: 5px;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-left: 2px;
+  margin-top: 27px;
+  min-width: 347px;
+  padding: 15px 136px;
+}
+
+.login-now {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  letter-spacing: 0;
+  min-height: 19px;
+}
+
+.text-1 {
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 445px;
+}
+
+.login-to-your-account {
+  letter-spacing: 0;
+  margin-right: 57px;
+  margin-top: 121px;
+  min-height: 35px;
+  min-width: 292px;
+}
+
+.login-form {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  margin-top: 24px;
+  min-height: 215px;
+  width: 350px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  border: 1px solid 
+#e7e7e7;
+  border-radius: 5px;
+  display: flex;
+  height: 50px;
+  margin-top: 11px;
+  min-width: 350px;
+  padding: 16px 19px;
+}
+
+.id {
+  color: 
+#2d3748;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 16px;
+}
+
+.password {
+  color: 
+#4a5568;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 19px;
+}
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --mirage: 
+rgba(26, 32, 44, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-xs: 14px;
+  --font-size-s: 16px;
+  --font-size-m: 30px;
+
+  --font-family-roboto: "Roboto";
+}
+
+
+
+.roboto-bold-mirage-30px {
+  color: var(--mirage);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}

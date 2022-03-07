@@ -1,0 +1,46 @@
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+.div-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.img-card {
+  border-radius: 30px;
+}
+.div-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 40px;
+}
+.div-card:hover {
+  box-shadow: 15px -5px 20px midnightblue;
+}
+.nav-bar {
+  position: sticky;
+  background-color: rgb(247, 156, 156);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-nav-bar {
+  color: white;
+  padding-top: 10px;
+}
+.tni-logo {
+  margin-right: 100px;
+}
